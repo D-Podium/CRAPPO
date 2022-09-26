@@ -1,0 +1,543 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D2B;
+    color: #fff;
+    font-family: 'MuseoModerno', cursive;
+    /*font-family: Rubik;*/
+}
+/**Header****/
+.logo {
+    margin: 5px 160px;
+}
+.logo ul {
+    display: flex;
+    color: white;
+    float: right;
+    font-family: Bahnschrift Light;
+}
+.logo ul li {
+    text-decoration: none;
+    margin: -5px 15px;
+    list-style: none;
+    font-size: 17px;
+    padding: 5px;
+}
+.logo ul li a {
+    text-decoration: none;
+    color: white;
+}
+.logo ul li:hover {
+    border-bottom: 2px solid blue;
+}
+.login {
+    background-color: #0D0D2B;
+    border: none;
+    color: white;
+    padding: 2px 12px;
+}
+.logo span {
+    margin: -1px;
+    margin-right: 9px;
+}
+.divider {
+    border-right: 1.5px solid #3c3c61;
+}
+.register {
+    background-color: rgb(91, 120, 237);
+    border-radius: 30px;
+    color: white;
+    padding: 5px 20px;
+    margin: 0 15px;
+    border: none;
+    margin-top: -2px;
+}/**ends*/
+
+/**Hero*/
+.switch {
+    margin: 100px 295px 170px 165px;
+}
+.switch img {
+    width: 450px;
+    float: right;
+    margin-top: -72px;
+}
+.switch .p1 {
+    font-size: 12px;
+    color: #fff;
+    background-color: rgb(91, 120, 237);
+    padding: 7px;
+    width: fit-content;
+    position: flex;
+    border-radius: 40px;
+    padding-right: 15px;
+}
+.switch .p1 span {
+    background-color: #fff;
+    color: rgb(91, 120, 237, .6);
+    padding: 3px 15px;
+    border-radius: 30px;
+    margin-right: 22px;
+    font-size: 13px;
+
+}
+.switch .tfree {
+    border-radius: 40px;
+    border: none;
+    padding: 4px 7px 11px 12px;
+    width: 160px;
+    color: #fff;
+    background-color: rgb(57, 93, 235);
+    
+
+}
+.switch .tfree .try {
+    padding-top: 2px;
+    font-size: 14px;
+}
+.switch .tfree .i {
+    margin-left: 15px;
+    background-color: #fff;
+    color: rgb(57, 93, 235);
+    font-size: 8px;
+    border-radius: 50%;
+    padding: 9px 12px;
+}
+
+.container .row .col i {
+    color: rgb(73, 144, 173);
+    background-color: #eee;
+    border-radius: 60%;
+    width: 35px;
+    text-align: center;
+    font-size: 10px;
+    padding: 12px;
+}
+.container .row .col p {
+    margin: 0 70px;
+    margin-top: -37px;
+    font-size: 13px;
+    color: gray;
+}
+.container .row .col span {
+    font-size: 23px;
+    color: #fff;
+}
+#p {
+    margin: 0 70px;
+    margin-top: -45px;
+}
+.float-left {
+    margin-top: 30px;
+    width: 580px;
+    
+}
+.row img {
+    float: left;
+}
+.containerr p {
+    float: right;
+    margin-top: -340px;
+    
+}
+.containerr span {
+    font-size: 45px;
+}
+.containerr button {
+    border-radius: 20px;
+    border-style: none;
+    background-color: skyblue;
+    color: #fff;
+    padding: 5px;
+    width: 110px;
+}
+
+/***CRYPTOCARDS SECTION***/
+
+
+.cryptocards {
+    background-color: #eee;
+    width: auto;
+}
+
+/**HASHRATE**/
+.hashrate {
+    background-color: #fff;
+    margin: -1020px 300px 0 300px;
+    border-radius: 15px;
+    border-style: none;
+    font-family: gadugi;
+}
+.hashrate .in-line {
+    display: inline-block;
+}
+.hashrate select {
+    margin: 55px 0 0 25px;
+    border-top: none;
+    border-right: none;
+    border-bottom: .4px solid rgb(128, 128, 128, .4);
+    border-left: none;
+    width: 200px;
+}
+.hashrate input {
+    margin: 20px 0 0 55px;
+    border: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: .4px solid rgb(128, 128, 128, .4);
+    border-left: none;
+}
+.cal {
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(67, 133, 194, .9);
+    border-style: none;
+    color: #fff;
+    width: 150px;
+    font-size: 20px;
+    margin: 0 25px 0 25px;
+}
+.cal:hover {
+    background-color: rgb(67, 133, 194);
+    color: #fff;
+}
+.hashrate p, h2 {
+    color: rgb(27, 25, 25);
+    margin: 20px 0 0 55px;
+}
+.hashrate p {
+    color: gray;
+}
+.hashrate h2 span {
+    color: rgb(91, 120, 237);
+}
+
+/**CRYPTOCARSDS**/
+.cryptocards .Ccardhead {
+    font-size: 22px;
+    font-weight: bold;
+}
+.cryptocards .card1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px 0 50px;
+}
+.cryptocards .card1 .bitcoinBtn, .ethereumBtn, .litecoinBtn {
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+    margin: 0 23px 30px 23px;
+    font-size: 10px;
+}
+.cryptocards .card1 .bitcoinBtn img {
+    margin-top: 40px;
+    width: 80px;
+}
+.cryptocards .card1 .bitcoinBtn h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.cryptocards .card1 .bitcoinBtn p {
+    margin: 0 40px 15px 40px;
+    font-size: 15px;
+}
+.cryptocards .card1 .bitcoinBtn h2 span {
+    font-size: 18px;
+    color: #aaa;
+    vertical-align: super;
+}
+.cryptocards .card1 .bitcoinBtn i {
+    color: rgb(91, 120, 237);
+    border: 1px solid #aaa;
+    border-radius: 60%;
+    padding: 16px 25px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.cryptocards .card1 .ethereumBtn img {
+    margin-top: 60px;
+    width: 80px;
+}
+.cryptocards .card1 .ethereumBtn h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 60px;
+}
+.cryptocards .card1 .ethereumBtn p {
+    margin: 0 40px 15px 40px;
+    font-size: 15px;
+}
+.cryptocards .card1 .ethereumBtn h2 span {
+    font-size: 18px;
+    color: #aaa;
+    vertical-align: super;
+}
+.cryptocards .card1 .ethereumBtn i {
+    color: rgb(91, 120, 237);
+    border: 1px solid #aaa;
+    border-radius: 60%;
+    padding: 16px 25px;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+.cryptocards .card1 .litecoinBtn img {
+    margin-top: 40px;
+    width: 80px;
+}
+.cryptocards .card1 .litecoinBtn h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 60px;
+}
+.cryptocards .card1 .litecoinBtn p {
+    margin: 0 40px 15px 40px;
+    font-size: 15px;
+}
+.cryptocards .card1 .litecoinBtn h2 span {
+    font-size: 18px;
+    color: #aaa;
+    vertical-align: super;
+}
+.cryptocards .card1 .litecoinBtn i {
+    color: rgb(91, 120, 237);
+    border: 1px solid #aaa;
+    border-radius: 60%;
+    padding: 16px 25px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.cryptocards .card1 .ethereumBtn, .litecoinBtn, .bitcoinBtn:hover {
+    background-color: #0D0D2B;
+    color: #fff;
+}
+
+/***Market Sentiments, Portfolio, And Run The Infrastructure Of Your Choice****/
+
+
+.marketSe {
+    background-color: #0D0D2B;
+    margin: 600px 0 0 155px;
+}
+.marketSe h1 {
+    font-size: 30px;
+}
+.marketSe h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+.marketSe p {
+    font-size: 12px;
+    color: gray;
+}
+.marketSe p span {
+    color: #fff;
+    background-color: rgb(91, 120, 237);
+    border-radius: 40px;
+    padding: 8px 14px;
+    width: 85px;
+}
+.marketSe img {
+    float: right;
+    margin-right: 255px;
+    margin-top: -170px;
+    width: 600px;
+}
+
+/***detailedStat***/
+
+
+.detailedStat img {
+    margin-top: -100px;
+    margin-right: 80px;
+    width: 600px;
+}
+.detailedStat .head1 {
+    margin-top: 470px;
+}
+
+
+
+.growth img{
+    margin-right: 180px;
+    margin-top: -55px;
+    width: 685px;
+    
+}
+.growth .growth-head{
+    margin-top: 310px;
+}
+
+
+/***START MINING NOW***/
+
+.startMin {
+    background-image: url(images/newsletter-box.png);
+    background-repeat: no-repeat;
+    margin-top: 270px;
+    margin-left: -25px;
+    margin-bottom: 50px;
+    padding: 35px 0 90px 0 ;
+    color: #fff;
+    display: flex;
+    border-radius: 20px;
+}
+.startMin p span{
+    background-color: transparent;
+    margin-left: -14px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.startMin p {
+    color: #fff;
+    margin: 20px 0 0 38px;
+}
+.startMin input {
+    margin: 45px 30px 0 195px;
+    border: none;
+    height: fit-content;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+/*****placeholder color******/
+.startMin input::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+.startMin input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+  }
+  .startMin input::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+  }
+.startMin button {
+    border: none;
+    height: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 38px 0 0 0;
+}
+
+
+
+
+/*****FOOTER********/
+
+
+.footer {
+    margin: 115px 0 0 130px;
+}
+.footer .theTop {
+    display: inline-flex;
+}
+.footer .theTop img{
+    width: 150px;
+    height: 50px;
+    margin-right: 140px;
+}
+.footer .theTop ul {
+    font-size: 15px;
+    margin-right: 80px;
+}
+.footer .theTop ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+.footer .theTop ul .liImg { 
+    padding: 0;
+    margin: 0;
+} 
+.footer .theTop ul li img {
+    width: 80px;
+    height: 50px;
+    display: inline-flex;
+}
+.footer .theTop ul li span {
+    margin-right: 30px;
+}
+.footer .theTop ul li span i {
+    font-size: 55px;
+    padding: 18px;
+    opacity: .5;
+}
+.footer .theTop ul li h3 {
+    font-size: 20px;
+}
+.footer .theTop ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer .theTop ul li a:hover {
+    color: blue;
+}
+.copyright {
+    margin: 20px 0 70px 130px;
+    display: inline-flex;
+}
+.copyright ul {
+    margin-left: 650px;
+}
+.copyright ul li {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 15px;
+}
+.copyright ul li i {
+    font-size: 20px;
+}
+@media (max-width: 600px){
+    .logo {
+       display: flex;
+    }
+    .logo ul {
+        margin-top: 28px;
+    }
+    .switch {
+        justify-content: center;
+        width: 700px;
+    }
+    .switch img {
+        width: 300px;
+        margin-top: 5px;
+    }
+    .row {
+        width: 900px
+    }
+    .row .col {
+        display: inline;
+        margin-left: -80px;
+    }
+    .containerr {
+        justify-content: center;
+    }
+    .containerr .row img {
+        width: 300px;
+    }
+    .containerr .row p {
+    }
+
+}
+
+
+.reveal {
+    position: relative;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 2s ease-in-out;
+}
+.reveal.active {
+    transform: translateX(0px);
+    opacity: 1;
+}
